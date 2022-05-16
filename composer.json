@@ -1,0 +1,28 @@
+{
+  "name": "gmsystem/router",
+  "description": "Classic Router adapter to my projects.",
+  "keywords": [
+    "gmsystem",
+    "Prolweb",
+    "Router",
+    "Route",
+    "Routes"
+  ],
+  "homepage": "http://prolweb.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Genilson M. Souza",
+      "email": "contato@prolweb.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GMSystem\\Router\\": "src"
+    }
+  }
+}
